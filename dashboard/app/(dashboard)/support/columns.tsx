@@ -112,7 +112,7 @@ export const columns: ColumnDef<SupportTicketsWithExpanded>[] = [
             </p>
             {isGuest && (
               <p className="text-xs text-muted-foreground truncate">
-                Guest · {user.email}
+                Guest Â· {user.email}
               </p>
             )}
           </div>
